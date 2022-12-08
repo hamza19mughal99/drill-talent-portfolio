@@ -2,6 +2,7 @@ import React from "react";
 // import {IoShareSocialOutline} from "react-icons/io"
 import { AiFillPhone } from "react-icons/ai";
 import { FiSend } from "react-icons/fi";
+import Logo from "../assets/footer_logo.png";
 import './Footer.css';
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
                         <div class="col-xl-4 col-lg-4 mb-50">
                             <div class="footer-widget">
                                 <div class="footer-logo">
-                                    <a href="index.html"><h1>DRILL TALENT</h1></a>
+                                    <a href="index.html"><img src={Logo} /></a>
                                 </div>
                                 <div class="footer-text">
                                     <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing

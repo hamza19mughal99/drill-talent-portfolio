@@ -1,12 +1,13 @@
 import React from "react";
 import {Nav, Navbar, Container} from 'react-bootstrap';
+import Logo from "../assets/Logo3.png";
 import "./Header.css";
 
 const Header = () => {
     return (
         <Navbar expand="lg">
             <Container>
-                <Navbar.Brand href="#home">DRILL TALENT</Navbar.Brand>
+                <Navbar.Brand href="#home"><img src={Logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
